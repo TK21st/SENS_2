@@ -1,4 +1,5 @@
-
+#ifndef build_bike
+#define build_bike
 /* easier for XYZ Data Storage */
 #define true 1
 #define false -1
@@ -78,3 +79,4 @@ struct AccelSensor
 	float fgPerCount;		// initialized to FGPERCOUNT
 };
 ********/
+#endif /* build_bike */
